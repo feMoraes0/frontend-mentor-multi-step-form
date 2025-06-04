@@ -18,3 +18,9 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lint
+        uses: npm run lint
