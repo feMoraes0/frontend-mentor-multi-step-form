@@ -1,5 +1,5 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-ubuntu: 'Ubuntu', sans-serif;
 }
